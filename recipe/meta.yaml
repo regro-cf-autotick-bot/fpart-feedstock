@@ -1,5 +1,5 @@
 {% set name = "fpart" %}
-{% set version = "1.2.0" %}
+{% set version = "1.4.0" %}
 
 package:
   name: {{ name }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/martymac/fpart/archive/refs/tags/{{ name }}-{{ version }}.tar.gz
-  sha256: ced59d68236d960473b5d9481f3d0c083f10a7be806c33125cc490ef2c1705f8
+  sha256: da4cd97365a2ebb3d0ee7e634c022eb21321ee5b6ab213d796fcbb01f28d9759
 
 build:
   skip: true  # [win]
@@ -35,7 +35,7 @@ about:
   license: BSD-2-Clause
   license_family: BSD
   license_file: COPYING
-  summary: 'Sort files and pack them into partitions'
+  summary: Sort files and pack them into partitions
 
 extra:
   recipe-maintainers:
